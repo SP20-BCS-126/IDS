@@ -26,6 +26,6 @@ iii)
    In my opinion, beard and hair, as a female can't have beard or be bald.
 4. Try to exclude these 2 attribute(s) from the dataset. Rerun the experiment (using 80/20 train/test split),
 did you find any change in the results? Explain.
-i)
+i) No, because there might be other poerful attributes than excluded ones, or that there is a lot of data ith not much vareity.
 ii)
 iii)
