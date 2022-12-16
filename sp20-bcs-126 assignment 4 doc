@@ -15,17 +15,17 @@ Q2: Apply Random Forest, Support Vector Machines, and Multilayer Perceptron clas
 questions.
 1. How many instances are incorrectly classified?
 i) 0
-ii)
-iii)
+ii) 6
+iii) 10
 2. Rerun the experiment using train/test split ratio of 80/20. Do you see any change in the results?
 Explain.
-i) No,because there are some input aatributes hich are heavily impacting the output.
-ii)
-iii)
+i) No,because there are some input atributes which are heavily impacting the output.
+ii) Yes,3 instances are wrong now.
+iii) Yes, 3 instances are wrong now
 3. Name 2 attributes that you believe are the most “powerful” in the prediction task. Explain why?
    In my opinion, beard and hair, as a female can't have beard or be bald.
 4. Try to exclude these 2 attribute(s) from the dataset. Rerun the experiment (using 80/20 train/test split),
 did you find any change in the results? Explain.
-i) No, because there might be other poerful attributes than excluded ones, or that there is a lot of data ith not much vareity.
-ii)
-iii)
+i) No, because there might be other powerful attributes than excluded ones, or that there is a lot of data with not much vareity.
+ii) No, because there might be other powerful attributes than excluded ones, or that there is a lot of data with not much vareity.
+iii) Yes, 6 instances are wrong now.
