@@ -10,3 +10,22 @@ Q1: Provide responses to the following questions about the dataset.
 5. What is the class ratio (male vs female) in the dataset?
    46 male vs 34 female (46:34->23:17->1.35:1)
   
+Q2: Apply Random Forest, Support Vector Machines, and Multilayer Perceptron classification algorithms
+(using Python) on the gender prediction dataset with standard train/test split ratio and answer the following
+questions.
+1. How many instances are incorrectly classified?
+i) 0
+ii)
+iii)
+2. Rerun the experiment using train/test split ratio of 80/20. Do you see any change in the results?
+Explain.
+i) No,because there are some input aatributes hich are heavily impacting the output.
+ii)
+iii)
+3. Name 2 attributes that you believe are the most “powerful” in the prediction task. Explain why?
+   In my opinion, beard and hair, as a female can't have beard or be bald.
+4. Try to exclude these 2 attribute(s) from the dataset. Rerun the experiment (using 80/20 train/test split),
+did you find any change in the results? Explain.
+i)
+ii)
+iii)
