@@ -29,3 +29,16 @@ did you find any change in the results? Explain.
 i) No, because there might be other powerful attributes than excluded ones, or that there is a lot of data with not much vareity.
 ii) No, because there might be other powerful attributes than excluded ones, or that there is a lot of data with not much vareity.
 iii) Yes, 6 instances are wrong now.
+
+Q4: Add 5 sample instances into the dataset (you can ask your friends/relatives/sibling for the data). Rerun
+the ML experiment (using Python) by training the model using Gaussian Naïve Bayes classification algorithm
+and all the instances from the gender prediction dataset. Evaluate the trained model using the newly added test
+instances. Report accuracy, precision, and recall scores.
+Note: You have to add the test instances in your assignment submission document.
+Data:- new_input = [(65, 120, 0, 3, 36, 1, 0), (68, 180, 1, 0, 40, 1, 2), (72, 180, 1, 2, 44, 0, 1), (67, 170, 0, 0, 40, 1, 1),(70, 176, 0, 3, 44, 1, 1)]
+       new_output = ['female','male','male','female','female']
+Accuracy: 80%
+Precision:  0   75%
+            1   100%
+Recall:     0   1
+            1   0.5
