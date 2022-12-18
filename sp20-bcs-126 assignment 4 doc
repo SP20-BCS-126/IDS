@@ -30,6 +30,18 @@ i) No, because there might be other powerful attributes than excluded ones, or t
 ii) No, because there might be other powerful attributes than excluded ones, or that there is a lot of data with not much vareity.
 iii) Yes, 6 instances are wrong now.
 
+Q3: Apply Decision Tree Classifier classification algorithm (using Python) on the gender prediction dataset
+with Monte Carlo cross-validation and Leave P-Out cross-validation. Report F1 score for both cross-validation
+strategies.
+Note: You are free to choose any parameter values for both cross-validation strategies, however, you have to
+provide these values in your submission document.
+Parameters:-   model = DecisionTreeClassifier(random_state=42)
+               lpo = LeavePOut(p=2)
+               ss = ShuffleSplit(train_size=0.6, test_size=0.3, n_splits = 5)
+               
+Avg LPO Score=0.9612341772151899
+Avg MC Score0.9666666666666668
+
 Q4: Add 5 sample instances into the dataset (you can ask your friends/relatives/sibling for the data). Rerun
 the ML experiment (using Python) by training the model using Gaussian Naïve Bayes classification algorithm
 and all the instances from the gender prediction dataset. Evaluate the trained model using the newly added test
